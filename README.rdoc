@@ -4,7 +4,7 @@ Aplicación de ejemplo para el curso Ruby on Rails de cero (segundo semestre 201
 
 == Dispositivas
 
-Ver http://agenda.quieroruby.com.ar/
+Ver http://agenda.quieroruby.com.ar
 
 == (The MIT License)
 
