@@ -1,7 +1,7 @@
 <%= form_for(@persona) do |f| %>
   <% if @persona.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@persona.errors.count, "error") %> prohibited this persona from being saved:</h2>
+      <h2>No se pudo guardar la persona, revise los errores</h2>
 
       <ul>
       <% @persona.errors.full_messages.each do |msg| %>
@@ -15,7 +15,11 @@
     <%= f.label :nombre %><br>
     <%= f.text_field :nombre %>
   </div>
+  <div class="field">
+    <%= f.label :apellido %><br>
+    <%= f.text_field :apellido %>
+  </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Guardar' %>
   </div>
 <% end %>
