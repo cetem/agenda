@@ -1,10 +1,15 @@
 <h1>Listando personas</h1>
 
+<%= form_for :persona, url: personas_path, method: :get do |f| %>
+  <%= text_field_tag :q, params[:q] %>
+
+  <%= f.submit 'Buscar' %> <%= ver_todos %>
+<% end %>
+
 <table>
   <thead>
     <tr>
       <th>Nombre</th>
-      <th>Apellido</th>
       <th></th>
       <th></th>
     </tr>
