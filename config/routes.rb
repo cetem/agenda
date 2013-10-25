@@ -1,6 +1,8 @@
 Agenda::Application.routes.draw do
   resource :sesion, only: [:new, :create, :destroy], controller: 'sesion'
 
+  resources :eventos
+
   resources :personas
 
   # The priority is based upon order of creation: first created -> highest priority.
