@@ -1,9 +1,3 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-one:
-  descripcion: MyText
-  persona_id: 
-
-two:
-  descripcion: MyText
-  persona_id: 
+ir_a_rubyconf:
+  descripcion: Go To Rubyconf
+  persona_id: anakin
